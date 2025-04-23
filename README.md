@@ -110,13 +110,9 @@ Arraylist info display (e.g., click speed next to "AutoClicker")
 
 🏆 Credits
 🧠 Core Team
-Himeji – Creator & main dev
+Kfzv – Creator & main dev
 
-11Luke11 – Sprint module, clicker improvements
-
-Autocliicker – Arraylist improvements
-
-🏛️ Legacy Contributors (Original Sincara)
+🏛️ Legacy Contributors (Original Fusion)
 deity, [redacted], Lefrauder, noahswtf
 
 Massive thanks to everyone who's contributed to the original Sincara project. View the legacy repo here.
