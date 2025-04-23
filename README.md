@@ -1,9 +1,9 @@
 🌌 SINCARA+
-A modern continuation of the original Sincara client — optimized, feature-rich, and open-source for 1.7.10 & 1.8.9.
+A modern continuation of the original Fusion client — optimized, feature-rich, and open-source for 1.7.10 & 1.8.9.
 
 Sincara+ is a powerful Minecraft client made for versions 1.7.10 and 1.8.9, packed with combat, movement, visual, inventory, and utility modules — plus a clean internal GUI and a dedicated injector for easy setup.
 
-This project builds on the legacy of the original Sincara (by deity and others), which is no longer maintained. Sincara+ picks up the torch and aims to push the project further with new features, improved performance, and enhanced usability.
+This project builds on the legacy of the original Fusion (by deity and others), which is no longer maintained. Sincara+ picks up the torch and aims to push the project further with new features, improved performance, and enhanced usability.
 
 🧩 Features
 🔧 Modular system – toggle modules for Combat, Movement, Visuals, etc.
@@ -56,10 +56,6 @@ Weapon Selector – Mark items as "weapons" (Suggested by @/zladen.)
 Tag Back – Retaliates after being tagged
 
 IT ESP – Highlights "IT" player with distance/name
-
-🖼️ GUI Preview
-
-Original GUI	Animated GUI
 	
 📥 Download
 Get the latest build from the Releases page
@@ -68,7 +64,7 @@ or build from source using Visual Studio.
 ⚠️ Disclaimer: This software is provided as-is. Use it at your own risk — I’m not responsible for bans or consequences.
 
 🧠 How to Inject
-Run the injector as Administrator
+Run processhacker find javaw and inject
 
 Launch Minecraft (Lunar Client)
 
