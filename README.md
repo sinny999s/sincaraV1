@@ -1,105 +1,120 @@
-# SINCARA+
+Okay, kfzv! Let's give that README a "super cool" makeover, injecting some style while keeping all the important info. Here's a revamped version focusing on aesthetics, clarity, and a bit more edge:
 
-*Sincara+* is an open-source Minecraft cheat developed for the Minecraft versions 1.7.10 and 1.8.9. It includes a variety of modules for combat, visual, movement, inventory, and utility, as well as a dedicated injector and internal GUI.
+Markdown
 
-This project is based on the original **Sincara** by [deity](https://www.youtube.com/@x64x70) and [redacted](), which is no longer maintained. *Sincara+* aims to carry the project forward with additional features, optimizations, and enhancements for personal use as well as for developers seeking a solid foundation for further customization.
+███████╗██╗███╗   ██╗ ██████╗ █████╗ ██████╗  █████╗ ███████╗   ██╗➕
+██╔════╝██║████╗  ██║██╔════╝██╔══██╗██╔══██╗██╔══██╗██╔════╝   ██║
+███████╗██║██╔██╗ ██║██║     ███████║██████╔╝███████║███████╗   ██║
+╚════██║██║██║╚██╗██║██║     ██╔══██║██╔══██╗██╔══██║╚════██║   ╚═╝
+███████║██║██║ ╚████║╚██████╗██║  ██║██║  ██║██║  ██║███████║   ██╗
+╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝   ╚═╝
+                     >> Developed by kfzv <<
+          >> Forked from Fusion+ (itself a fork of Fusion) <<
+🚀 SINCARA+ | Revived & Enhanced 🚀
 
----
+Born from the ashes of Sincara, forged anew from Fusion+, Sincara+ is kfzv's take on the ultimate open-source Minecraft utility mod for versions 1.7.10 and 1.8.9. This isn't just a continuation; it's an evolution, packed with combat, visual, movement, inventory, and utility modules, complete with a dedicated injector and sleek internal GUI.
 
-[Content](#content)・[Download](#download)・[How to inject](#how-to-inject)・[Project Status](#project-status)・[Credits](#credits)
+Originally crafted by deity & [redacted], the Fusion legacy lives on here. Sincara+ brings fresh features, slick optimizations, and enhancements – built for personal dominance and as a rock-solid foundation for developers wanting to dive deeper.
 
-## Content
+✨ Jump To: Features | Download | Status | Credits | Join Us ✨
 
-### Modules
-- **Combat**
-  - **Aim Assist**: Automatically aims at the nearest player
-  - **Reach**: Increases the player's reach distance
-  - **Auto Clicker (Left & Right)**: Automatically clicks the left or right mouse button
-- **Visual**
-  - **ESP**: Displays player names, health, and distance
-  - **Radar**: Displays a radar of nearby players
-  - **NameTags**: Displays player nametags (and other information) above their heads (suggested by **Autocliicker**)
-- **Movement**
-  - **Bridge Assist**: Automatically shifts the player at the edge of blocks while bridging
-  - **Velocity**: Reduces knockback taken by the player
-  - **Sprint Reset**: Automatically resets the player's sprint when hitting an entity
-  - **Sprint**: Automatically sprints for the player (created by **11Luke11**)
-- **Inventory**
-  - **Chest Stealer**: Automatically steals items from chests
-  - **Inventory Sorter**: Automatically sorts the player's inventory (buggy & complicated)
-- **Utility**
-  - **Arraylist**: Displays a list of the user's active modules
-  - **Client Brand Changer**: Changes the player's client Brand
-  - **Weapon**: A feature that lets you select the items you consider weapons (suggested by **@/zladen.**)
+&lt;a id="-features">&lt;/a>🕹️ Features Arsenal 🕹️
+Core Modules
+⚔️ Combat
+Aim Assist: Lock onto targets like a pro.
+Reach: Extend your grasp.
+Auto Clicker (L/R): Unrelenting clicks, automated.
+👁️ Visual
+ESP: See players, health, distance through walls.
+Radar: Keep track of nearby entities.
+NameTags: Enhanced player info overhead (suggested by Autocliicker).
+🏃 Movement
+Bridge Assist: Effortless bridging with auto-shift.
+Velocity: Reduce incoming knockback.
+Sprint Reset: Keep sprinting after hits.
+Sprint: Automatic sprinting (created by 11Luke11).
+📦 Inventory
+Chest Stealer: Loot chests instantly.
+Inventory Sorter: Auto-arranges your inventory (needs polish).
+🛠️ Utility
+Arraylist: See active modules at a glance.
+Client Brand Changer: Customize your client signature.
+Weapon: Define your preferred combat items (suggested by @/zladen.).
+Stealth Operations (Hidden Modules)
+💣 TnT Tag (Hypixel)
+Tag Back: Instantly pass the tag back.
+IT ESP: Highlight the player who's "IT".
+Platform Features
+🎨 Internal GUI: Press Insert to toggle the command center.
+💉 Dedicated Injector: Seamless injection into Lunar Client.
+⚙️ Config Files: Save & load your perfect settings profiles.
+🤝 Friends List: Whitelist allies from Aim Assist, highlight them with ESP.
+Visual Showcase
+&lt;img src="[invalid URL removed]" alt="original gui - by [redacted]"/>
+&lt;img src="https://github.com/6470bru/sincara/assets/67878277/fac3f084-0255-4999-b03f-3e2e0a15bde8" alt="animated - by [redacted] (rip Sponky_)" width=586>
+Legacy visuals - Stay tuned for potential UI upgrades!
 
-### Hidden Modules
-- **TnT Tag** (Hypixel)
-  - **Tag Back**: Automatically tags another player after being tagged.
-  - **IT ESP**: Highlights the player who is "IT" in TnT Tag, and displays their name and distance.
+&lt;a id="-download--inject">&lt;/a>🚀 Download & Inject 🚀
+Grab the latest Sincara+ release directly:
+➡️ Latest Release Download ⬅️
 
-### Features
-- **Internal GUI**: Press `Insert` to open the internal GUI
-- **Dedicated Injector**: Inject the cheat into Lunar Client with the dedicated injector
-- **Config Files**: Save and load cheat settings
-- **Friends List**: Add and remove friends to prevent Aim Assist from targeting them, or to highlight them in ESP
+Alternatively, clone the repo and build the .dll yourself using Visual Studio.
 
-### Screenshots
-<img src="https://github.com/6470bru/sincara/assets/67878277/5a732ba9-3d81-44e4-b745-f34f39555716" alt="original gui - by [redacted]"/>
-<img src="https://github.com/6470bru/sincara/assets/67878277/fac3f084-0255-4999-b03f-3e2e0a15bde8" alt="animated - by [redacted] (rip _Sponky__)" width=586>
+[!WARNING]
+USE AT YOUR OWN RISK! This is a cheat modification. Bans are a possibility. kfzv and contributors are not responsible for any consequences resulting from using Sincara+. Play smart, play safe (or don't!).
 
-## Download
-You can download the latest release of *Sincara+* [here](https://github.com/h1meji/sincara-plus/releases) or you can build the `.dll` file yourself by cloning the repository and building the project in Visual Studio.
-> [!WARNING]
-> Use at your own risk. I am not responsible for any bans or other consequences resulting from the use of this cheat.
+Injection Guide:
+Run Injector: Launch the provided injector.exe as Administrator.
+Launch Minecraft: Start Minecraft (Lunar Client recommended).
+Wait for Detection: Ensure you're on the main menu and the injector detects the Minecraft process.
+Click Inject: Hit the Inject button in the injector window.
+Access GUI: Success! Press Insert in-game to open the Sincara+ menu.
+Why Open Source?
+Sincara's spirit was about providing a foundation. Sincara+ carries that torch. As kfzv, I'm making this open-source as both a personal learning journey and a resource for aspiring cheat developers. Learn, tinker, contribute – let's build something awesome together.
 
-## How to inject
-Open the injector in administrator mode and open Minecraft. Once you are in the main menu, and the injector has detected Minecraft, click on the `Inject` button. The cheat should now be injected into the game, and you can open the GUI by pressing `Insert`.
+&lt;a id="-project-status--roadmap">&lt;/a>📈 Project Status & Roadmap 📉
+Sincara+ is actively being developed by kfzv, focusing on stability, features, and performance.
 
-### Why is this project open-source?
-The goal of the original *Sincara* project was to provide a solid foundation for developers to build upon, and *Sincara+* continues this mission by offering an updated version with additional features and optimizations. By making this project open-source, I hope to provide a valuable resource for developers seeking to learn more about cheat development and improve their skills. I also welcome contributions from the community to help make *Sincara+* even better.
+Current State:
+Actively Maintained
+New features & optimizations added periodically
+Future Vision (Planned Features):
+(No major features planned currently)
+Module Pipeline (Planned Additions):
+[ ] BlockESP: Highlight specific blocks in the world.
+[ ] Restock: Auto-refill hotbar slots.
+[ ] Tracers / Off-screen Arrows: Draw lines/pointers to players.
+[ ] Auto Tool: Select the best tool automatically (suggested by @/zladen.).
+[ ] Legit Criticals: Auto-jump for critical hits (suggested by @/letalisfatum).
+[ ] Auto Soup: Consume soup automatically at low health (suggested by @/letalisfatum).
+[ ] No Hit Delay: Remove the delay between attacks (suggested by @/.fyoki).
+[ ] Auto Block: Auto-block with sword on hit (separate from AutoClicker).
+[ ] Fast Place: Remove block placement delay.
+Enhancement Pipeline (Planned Changes):
+[ ] GUI Facelift: Modernize the user interface.
+[ ] GUI Customization: More options to personalize the look & feel.
+[ ] Arraylist Info: Display key module settings next to the name.
+Heads Up!
+⚠️ Screenshare Risk: This cheat is NOT screenshare proof. Be cautious.
+✅ OBS Stealth: The overlay is hidden from OBS "Game Capture" mode by default.
+&lt;a id="-credits">&lt;/a>🏆 Credits & Acknowledgements 🏆
+Sincara+ Crew:
+kfzv: Lead Developer, Maintainer
+11Luke11: Sprint module creation, Left Clicker enhancements.
+Autocliicker: Arraylist fixes and improvements.
+Original Sincara Architects:
+deity: Core base development.
+[redacted]: Module & GUI development.
+Lefrauder: Reach module rewrite.
+noahswtf: Critical fullscreen fixes.
+Huge respect to the original Sincara team for laying the groundwork. Check out the original project here.
 
-## Project Status
-*Sincara+* is currently in active development, with new features and optimizations being added regularly. I want to to provide a cheat that is both reliable and easy to use. If you encounter any issues or have suggestions for improvements, please let me know by opening an issue on the GitHub repository. I will do my best to address any problems and implement new features based on community feedback.
+&lt;a id="-community">&lt;/a>💬 Community 💬
+Join the hub for updates, support, and discussion:
+&lt;a href="https://discord.gg/EWkhAPRdwb">&lt;img src="[invalid URL removed]" alt="Discord Server">&lt;/a>
+(Replace YOUR_DISCORD_ID in the badge URL if you know it, otherwise, just use the text link below)
 
-### Planned Features
-- *Nothing planned at the moment*
+➡️ Join the Sincara+ Discord! ⬅️
 
-### Planned Modules
-- **BlockESP**: Displays blocks selected in the world
-- **Restock**: Automatically restocks the player's hotbar
-- **Tracers / Off-screen Arrows**: Draws lines / arrows to players (off-screen)
-- **Auto Tool**: Automatically selects the best tool for the block being mined (suggested by **@/zladen.**)
-- **Legit Criticals**: Jumps when hitting an entity to deal critical hits (suggested by **@/letalisfatum**)
-- **Auto Soup**: Automatically eats soup when the player's health is low (suggested by **@/letalisfatum**)
-- **No Hit Delay**: Removes the hit delay when hitting an entity (suggested by **@/.fyoki**)
-- **Auto Block**: Automatically blocks with a sword when hitting an entity (seperating it from the "Auto Clicker" module)
-- **Fast Place**: Removes the delay between placing blocks
-
-### Planned Changes
-- Better looking GUI
-- More customization options for the GUI
-- Arraylist module information (certain settings displayed besides the name)
-
-### Notices
-- This cheat is not screen-share proof, but the overlay is hidden from OBS "Game Capture".
-
-## Credits
-**Sincara+ Contributors**:
-- **Himeji**: Main developer
-- **11Luke11**: Developed the "Sprint" module. Updated the "Left Clicker" module with more advanced settings
-- **Autocliicker**: Fixed and improved the "Arraylist" module
-
-**Original Sincara Development Team**:
-- **deity**: Developed the base of the cheat
-- **[redacted]**: Developed modules and the GUI
-- **Lefrauder**: Remade the reach module
-- **noahswtf**: Fixed critical fullscreen issues
-
-Big thanks to the original developers of *Sincara* for creating the solid foundation upon which *Sincara+* is built. You can find the original repository [here](https://github.com/6470bru/sincara).
-
----
-
-Join the [Discord](https://discord.gg/EWkhAPRdwb) server for updates, announcements, and support.
-
-> [!Note]
-> Sincara+ is still an hobby project / learning experience for me, so I can't guarantee that I will be able to fix every issue or implement every feature request. However, I will do my best to provide a cheat that is both reliable and easy to use.
+[!NOTE]
+Sincara+ remains a passion project and learning experience for kfzv. While I strive for quality, fixes and feature implementations depend on time and feasibility. Your feedback and contributions are always welcome!
